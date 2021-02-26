@@ -8,19 +8,34 @@ import ShoppingCart from './ShoppingCart';
 import Clicker from "./Clicker";
 import ButtonGroup from "./ButtonGroup"
 
+import Counter from "./Counter"
+
+// function App() {
+
+//   return (
+//     <div>
+//       <img src={fakeLogo} id="logo"/>
+//     <Clicker />
+//     <ButtonGroup />
+//     <ShoppingCart items={items} username="Sarah"/>
+//     <ShoppingCart items={moreItems} username="Fred"/>
+
+
+//     </div>
+//   );
+// }
+
+
 function App() {
 
   return (
     <div>
       <img src={fakeLogo} id="logo"/>
-    <Clicker />
-    <ButtonGroup />
-    {/* <ShoppingCart items={items} username="Sarah"/>
-    <ShoppingCart items={moreItems} username="Fred"/> */}
-
-
+    <Counter />
     </div>
   );
 }
+
+
 
 export default App;
