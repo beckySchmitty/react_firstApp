@@ -2,3 +2,16 @@
   width: 500px;
 }
 
+.NumberGame {
+  border: 2px solid black;
+  width: 20%;
+}
+
+.winner {
+  color: green;
+}
+
+.loser {
+  color:red;
+}
+
