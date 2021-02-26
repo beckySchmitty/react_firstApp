@@ -7,13 +7,17 @@ import fakeLogo from './fakeLogo.svg'
 
 import ShoppingCart from './ShoppingCart';
 
+import Clicker from "./Clicker"
+
 function App() {
 
   return (
     <div>
       <img src={fakeLogo} id="logo"/>
+    <Clicker />
     <ShoppingCart items={items} username="Sarah"/>
     <ShoppingCart items={moreItems} username="Fred"/>
+
 
     </div>
   );
